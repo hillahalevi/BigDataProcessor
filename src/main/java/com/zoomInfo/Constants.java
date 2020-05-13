@@ -1,4 +1,4 @@
-package com.zoomInfo.chuncks;
+package com.zoomInfo;
 
 public class Constants {
 

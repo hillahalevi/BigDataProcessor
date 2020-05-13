@@ -20,8 +20,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.IntStream;
 
-import static com.zoomInfo.chuncks.Constants.*;
-import static com.zoomInfo.chuncks.Constants.NUM_OF_ENTRIES;
+import static com.zoomInfo.Constants.*;
+import static com.zoomInfo.Constants.NUM_OF_ENTRIES;
 
 @Component
 public class FileUtils {

@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import static com.zoomInfo.Constants.*;
 import static com.zoomInfo.FileUtils.preRun;
 
 
@@ -17,10 +18,10 @@ public class BatchRunner {
 
 
     public static void main(String[] args) throws Exception {
-//        preRun();
-//        System.out.println("properties  :");
-//        String properties = String.format("num of entries: %s , chunk size: %s , throttle limit : %s ", NUM_OF_ENTRIES, CHUNK_SIZE, THROTTLE_LIMIT);
-//        System.out.println(properties);
+        preRun();
+        System.out.println("properties  :");
+        String properties = String.format("num of entries: %s , chunk size: %s , throttle limit : %s ", NUM_OF_ENTRIES, CHUNK_SIZE, THROTTLE_LIMIT);
+        System.out.println(properties);
         SpringApplication.run(BatchRunner.class, args);
     }
 

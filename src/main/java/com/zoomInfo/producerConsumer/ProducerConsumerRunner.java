@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import static com.zoomInfo.FileUtils.preRun;
-import static com.zoomInfo.chuncks.Constants.THROTTLE_LIMIT;
+import static com.zoomInfo.Constants.THROTTLE_LIMIT;
 
 public class ProducerConsumerRunner {
 

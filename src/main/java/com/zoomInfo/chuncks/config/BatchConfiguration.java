@@ -30,7 +30,7 @@ import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.core.task.TaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
 
-import static com.zoomInfo.chuncks.Constants.*;
+import static com.zoomInfo.Constants.*;
 
 /**
  * using spring batch job mechanism plus thread pool for parallel  processing = better performance
