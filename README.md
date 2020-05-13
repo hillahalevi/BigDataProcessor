@@ -16,5 +16,8 @@ multi threaded program to enable fast processing of large csv files.
      * results : 1000000 entries processed in 15778ms  (chunk size -1000, pool limit = 20)
      * results : 100 entries processed in 36ms  (chunk size -20, pool limit = 10)
 
-**change of properties can be done in the Constants class
-**each run produce the input file (testFile.csv) and the processing results are written to outputData.csv
+
+
+change of properties can be done in the Constants class.
+
+each run produce the input file (testFile.csv) and the processing results are written to outputData.csv
